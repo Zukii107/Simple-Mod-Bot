@@ -2,12 +2,6 @@
 
 ## 📝 Our Discord Servers
 
-<a href="https://discord.gg/C7jxv8Z">
-  <img src="devs.svg" align="center">
-</a>
-
-<br><br>
-
-<a href="https://discord.gg/cJEx49">
-  <img src="cJEx49.svg" align="center">
+<a href="https://discord.gg/jcb48q5">
+  <img src="https://github.com/TeamDarkDevs/DarkDevelopers/raw/main/devs.svg" align="center">
 </a>
