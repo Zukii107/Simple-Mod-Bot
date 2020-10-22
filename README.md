@@ -1,12 +1,13 @@
 <center><a href="https://discord.com/assets/ef555bf639a11bd65ae3065263788bba.png"><img src="https://discord.com/assets/ef555bf639a11bd65ae3065263788bba.png"></a></center>
 
 ## How to set up
-Change Prefix and Token in config.js
-Install Module
+> Change Prefix and Token in config.js
+
+1. Install Module
 ```
 npm install
 ```
-Run the Bot
+2. Run the Bot
 ```
 node index.js
 ```
