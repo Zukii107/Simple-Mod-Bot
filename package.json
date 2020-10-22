@@ -1,0 +1,27 @@
+{
+    "name": "simple-mod-bot",
+    "version": "1.0",
+    "description": "Simple Moderation Bot",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Zuka-Zuki/Simple-Mod-Bot.git"
+    },
+    "keywords": [
+        "moderation-bot"
+    ],
+    "author": "Zukii",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Zuka-Zuki/Simple-Mod-Bot/issues"
+    },
+    "homepage": "https://github.com/Zuka-Zuki/Simple-Mod-Bot#readme",
+    "dependencies": {
+        "discord.js": "^12.4.0",
+        "fs": "0.0.1-security",
+        "quick.db": "^7.1.3"
+    }
+}
