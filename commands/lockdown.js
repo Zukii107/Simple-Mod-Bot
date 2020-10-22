@@ -13,7 +13,7 @@ module.exports = {
         }
     });
 
-    message.channel.createOverwrite(message.guild.id, {
+    message.channel.createOverwrite(message.channel.id, {
         SEND_MESSAGES: false,
         READ_MESSAGES: true,
         ADD_REACTIONS: false
