@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Zuka-Zuki/Simple-Mod-Bot.git"
+        "url": "git+https://github.com/Zukii107/Simple-Mod-Bot.git"
     },
     "keywords": [
         "moderation-bot"
@@ -16,9 +16,9 @@
     "author": "Zukii",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Zuka-Zuki/Simple-Mod-Bot/issues"
+        "url": "https://github.com/Zukii107/Simple-Mod-Bot/issues"
     },
-    "homepage": "https://github.com/Zuka-Zuki/Simple-Mod-Bot#readme",
+    "homepage": "https://github.com/Zukii107/Simple-Mod-Bot#readme",
     "dependencies": {
         "discord.js": "^12.4.0",
         "fs": "0.0.1-security",
