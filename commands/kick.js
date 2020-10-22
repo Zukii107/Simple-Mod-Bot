@@ -97,8 +97,6 @@ if (!User.kickable) return message.channel.send({
     }
 })
 try {
-    console.log(`Member Is Going To Get Kick!`);
-
     setTimeout(function() {
         User.kick({ reason: `${Reason || "No Reason Provided!"}` });
     }, 2000);
@@ -116,7 +114,7 @@ try {
       "No Reason Provided!"}`
         );
     message.channel.send(embed);
-    console.log(`User: ${Member.tag} (${Member.id}) Just Got Kicked From ${message.guild.name} For ${Reason || "No Reason Provided!"}`)
+   
 } catch (error) {
     return message.channel
         .send({
