@@ -3,9 +3,13 @@
 ## How to set up
 Change Prefix and Token in config.js
 Install Module
-```npm install```
+```
+npm install
+```
 Run the Bot
-```node index.js```
+```
+node index.js
+```
 ## 📝 Our Discord Servers
 
 <a href="https://discord.gg/jcb48q5">
