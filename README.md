@@ -13,6 +13,5 @@ node index.js
 ```
 ## 📝 Our Discord Servers
 
-<a href="https://discord.gg/jcb48q5">
-  <img src="https://github.com/TeamDarkDevs/DarkDevelopers/raw/main/devs.svg" align="center">
-</a>
+<a href="https://discord.gg/jcb48q5"><img src="https://discordapp.com/api/guilds/733807204938940447/embed.png?style=banner3"/></a>
+<br><br>
