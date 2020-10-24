@@ -2,7 +2,7 @@ exports.run = async(client, message, args, guildConf, userConf) => {
       if (!message.member.hasPermission("MANAGE_ROLES")) {
         return message.channel.send({
             embed: {
-                description: '<:error:742644211668484115> **You dont have \`MANAGE_ROLES\` permission**'
+                description: '**You dont have \`MANAGE_ROLES\` permission**'
             }
         });
       }
