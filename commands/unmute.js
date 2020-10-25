@@ -38,5 +38,5 @@ module.exports = {
       
       user.send(`You are now unmuted from **${message.guild.name}**`)
 
-  };
+  }
 }
