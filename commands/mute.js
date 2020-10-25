@@ -6,6 +6,7 @@ module.exports = {
         name: "mute",
         aliases: []
     },
+    run: async(client, message, args) => {
     try {
         if (!message.member.hasPermission("MANAGE_GUILD")) return message.channel.send("**You Dont Have Permmissions To Mute Someone! - [MANAGE_GUILD]**");
 
@@ -82,6 +83,4 @@ module.exports = {
             return;
         }
     }
-        
-         
-     }
+}
