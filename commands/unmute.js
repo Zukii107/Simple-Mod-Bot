@@ -3,7 +3,7 @@ module.exports = {
         name: "unmute",
         aliases: []
     },
-      
+      run: async(client, message, args) => {
       if (!message.member.hasPermission("MANAGE_ROLES")) {
         return message.channel.send({
             embed: {
