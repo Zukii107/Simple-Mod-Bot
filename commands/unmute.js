@@ -1,4 +1,9 @@
-exports.run = async(client, message, args, guildConf, userConf) => {
+module.exports = {
+    help: {
+        name: "unmute",
+        aliases: []
+    },
+      
       if (!message.member.hasPermission("MANAGE_ROLES")) {
         return message.channel.send({
             embed: {
@@ -34,9 +39,4 @@ exports.run = async(client, message, args, guildConf, userConf) => {
       user.send(`You are now unmuted from **${message.guild.name}**`)
 
   };
-  module.exports.help = {
-    name: "unmute",
-    description: "Unmute member",
-    dm: false,
-    aliases: []
 }
