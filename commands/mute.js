@@ -1,7 +1,11 @@
 const { MessageEmbed } = require("discord.js");
 const db = require('quick.db');
 
-exports.run = async(client, message, args, guildConf, userConf) => {
+module.exports = {
+    help: {
+        name: "mute",
+        aliases: []
+    },
     try {
         if (!message.member.hasPermission("MANAGE_GUILD")) return message.channel.send("**You Dont Have Permmissions To Mute Someone! - [MANAGE_GUILD]**");
 
@@ -79,10 +83,5 @@ exports.run = async(client, message, args, guildConf, userConf) => {
         }
     }
         
-            
-  module.exports.help = {
-    name: "mute",
-    description: "Mute People",
-    dm: false,
-    aliases: ["muted"]
+         
      }
