@@ -5,7 +5,7 @@ module.exports = {
         aliases: ["lock"]
     },
     run: async(client, message, args) => {
-
+ 
            if (!client.lockit) client.lockit = [];
     if (!message.member.hasPermission("MANAGE_CHANNELS")) return message.reply({
         embed: {
