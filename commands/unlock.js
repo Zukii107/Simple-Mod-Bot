@@ -15,7 +15,7 @@ module.exports = {
                 }
             });
     
-        message.channel.createOverwrite(message.channel.id, {
+        message.channel.createOverwrite(message.guild.id, {
             SEND_MESSAGES: true,
             READ_MESSAGES: true
         }).then(() => {
